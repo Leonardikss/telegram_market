@@ -18,7 +18,7 @@ try:
     with open('dict.pkl', 'rb') as f:
         users = pickle.load(f)
 except:
-    users = {"data": {"password": "admin618admin"}, "products": dict()}
+    users = {"data": {"password": "111"}, "products": dict()}
     save()
 
 
