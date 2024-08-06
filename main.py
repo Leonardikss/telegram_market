@@ -49,7 +49,7 @@ def panier(call):
 
 
 @bot.callback_query_handler(func=lambda call: call.data == " panier_с")
-def panier(call):
+def panier_c(call):
     users[call.from_user.id]["panier"] = list()
     bot.send_message(call.from_user.id, "корзина очищена")
 
